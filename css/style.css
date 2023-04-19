@@ -524,3 +524,384 @@ footer .logo-box {
     gap: 2rem;
 }
 /* End of Footer */
+
+
+@media  screen and (min-width: 768px) and (max-width: 1024px){
+    .hero-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-img img {
+        width: 100%;
+    }
+
+    .links {
+        gap: 2rem;
+    }
+
+    .contact-button {
+        width: 80%;
+    }
+
+    .hero-text h1 {
+        font-size: 30px;
+    }
+
+    header {
+        height: calc(100vh - 300px);
+    }
+
+    .skills-title h1 {
+        font-size: 40px;
+    }
+
+    .skills-title {
+        margin-bottom: 1rem;
+    }
+
+    .skills {
+        height: 500px;
+        padding: 2rem;
+    }
+
+    .skills-list {
+        gap: 1rem;
+    }
+
+    .skill h2 {
+        font-size: 1rem;
+    }
+
+    .skill p {
+        font-size: 0.75rem;
+    }
+
+    .about {
+        height: 400px;
+    }
+
+    .portfolio-title h1 {
+        font-size: 40px;
+    }
+
+    .dribble-button-container {
+        position: absolute;
+        top: 50px;
+        right: 4rem;
+    }
+
+    .portfolio {
+        padding: 2rem;
+    }
+
+    .portfolio-dribble a {
+         padding: 0;
+    }
+
+    .client-feedback {
+        padding: 2rem;
+    }
+
+    .feedback-container {
+        gap: 1rem;
+    }
+
+    .contact-container {
+        width: 80%;
+    }
+
+    .logo-box img {
+        width: 80%;
+    }
+
+    .links a, .policy-links a {
+        font-size: 0.75rem;
+    }
+
+    footer {
+        padding: 2rem;
+    }
+
+    .policy {
+        margin-top: 2rem;
+    }
+}
+
+@media  screen and (max-width: 767px) {
+    nav {
+        font-size: 0.75rem;
+    }
+
+    .hero-img img {
+        width: 100%;
+    }
+
+    .links {
+        gap: 1rem;
+    }
+
+    .button-container {
+        padding: 0 0.25rem;
+    }
+
+    .contact-button {
+        width: 100%;
+    }
+
+    header {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        height: auto;
+    }
+
+    .hero-img {
+        padding: 0rem;
+    }
+
+    .hero-text {
+        padding: 2rem;
+    }
+
+    .hero-text h1 {
+        font-size: 40px;
+    }
+
+    .hero-text-container {
+        text-align: center;
+    }
+    
+    .skills {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+
+    .skills-title {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .skills-title h1 {
+        font-size: 40px;
+    }
+
+    .skills-list {
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .skill {
+        height: 250px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about {
+        grid-template-columns: 1fr;
+    }
+
+    .about-title h1 {
+        font-size: 40px;
+    }
+
+    .portfolio-title h1 {
+        font-size: 40px;
+    }
+
+    .dribble-button-container {
+       left: 4rem;
+       top: 120px;
+    }
+
+    .portfolio-title {
+        margin-bottom: 6rem;
+    }
+
+    .portfolio-items {
+        grid-template-columns: 1fr;
+    }
+
+    .feedback-title h1 {
+        font-size: 40px;
+    }
+
+    .feedback-container {
+        flex-direction: column;
+    }
+
+    .contact-title h1 {
+        font-size: 40px;
+    }
+
+    .contact {
+        padding: 2rem 0;
+    }
+
+    form {
+        display: flex;
+         flex-direction: column;
+    }
+
+    .contact-container {
+        width: 80%;
+    }
+
+    footer {
+        padding: 1rem;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    footer .logo-box {
+        grid-row: 1;
+    }
+
+    footer .links {
+        grid-row: 2;
+    }
+
+    .footer-links {
+        grid-row: 3;
+    }
+
+    footer .logo-box {
+        justify-self: center;
+        justify-content: center;
+    }
+
+    .footer-links {
+        justify-self: center;
+    }
+
+    .policy {
+        margin-top: 1rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    footer .links {
+        font-size: 0.75rem;
+    }
+
+    .client-feedback {
+        padding: 4rem 2rem;
+    }
+
+    .portfolio {
+         padding: 2rem;
+    }
+
+    .about-text {
+        padding: 0 2rem;
+    }
+
+    nav .links {
+        text-align: center;
+    }
+}
+
+@media  screen and (max-width: 375px) {
+    nav {
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        height: auto;
+        padding: 1rem 0;
+    }
+
+    nav .logo-box {
+        grid-row: 1;
+    }
+
+    nav .links {
+        grid-row: 2;
+    }
+
+    .hero-text h1 {
+        font-size: 25px;
+    }
+
+    .skills-title h1 {
+        font-size: 25px;
+    }
+
+    nav .button-container {
+        grid-row: 3;
+        width: 40%;
+        justify-self: center;
+        align-self: center;
+    }
+
+    nav .contact-button {
+        padding: 1rem;
+    }
+
+    .about-title h1 {
+        font-size: 25px;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    .portfolio-title {
+        text-align: center;
+    }
+
+    .portfolio-title h1 {
+        font-size: 25px;
+    }
+
+    .dribble-button-container {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 120px;
+        right: unset;
+    }
+
+    .about-text {
+        padding: 2rem;
+    }
+
+    .portfolio {
+        padding: 2rem;
+    }
+
+    .portfolio-item {
+        text-align: center;
+    }
+
+    .portfolio-dribble {
+        padding: 1rem 0.25rem;
+    }
+
+    .client-feedback {
+        padding: 4rem 2rem;
+    }
+
+    .feedback-title {
+        text-align: center;
+    }
+
+    .contact-title h1 {
+        font-size: 25px;
+    }
+
+    footer {
+        grid-template-rows: 0.5fr 1fr 0.5fr 0.5fr;
+        gap: 1rem 0;
+        grid-template-columns: 1fr;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
