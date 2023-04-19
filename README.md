@@ -1,3 +1,8 @@
+
+###LINK NA STRANICU
+https://bojanmandic.com/wp/
+
+
 # LV 1 zadatak - Osobna stranica
 
 ### LINK: 
